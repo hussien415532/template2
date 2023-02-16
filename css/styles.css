@@ -1262,6 +1262,7 @@ nav ul li a:hover {
     width: 40px;
     height: 40px;
     display: flex;
+    visibility: hidden;
     justify-content: center;
     align-items: center;
     cursor: pointer;
