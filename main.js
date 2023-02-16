@@ -5,11 +5,11 @@ window.onscroll = function()
 {
     if(services.offsetTop<=this.scrollY)
     {
-        scrollBtn.style.display ='flex';
+        scrollBtn.style.visibility ='visible';
     }
     else
     {
-        scrollBtn.style.display ='none';
+        scrollBtn.style.visibility ='hidden';
     }
 }
 scrollBtn.onclick = ()=>{
